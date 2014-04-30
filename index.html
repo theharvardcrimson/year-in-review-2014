@@ -1,0 +1,405 @@
+{% extends "__base.html" %}
+
+{% block content %}
+
+<header>
+    <div class="wrapper">
+        <a class="header-logo" href="http://www.thecrimson.com/">
+            <img src="assets/img/logo.png" height="18" width="215">
+        </a>
+        <ul class="header-nav">
+            <a href="#featured"><li>Featured</li></a>
+            <a href="#levity"><li>Levity</li></a>
+            <a href="#around-town"><li>Around Town</li></a>
+            <!-- <a href="#retrospection"><li>Retrospection</li></a> -->
+            <a href="#conversations"><li>Conversations</li></a>
+            <a href="#Endpapers"><li>Endpapers</li></a>
+            <a href="#editors-note"><li>Editors&rsquo; Note</li></a>
+        </ul>
+    </div>
+</header>
+
+<div id="header">
+    <div id="yir-fm-title"><img src="assets/img/logo-black.png"></div>
+    <div id="yir-title">Year in Review</div>
+    <div id="yir-subhead">The 10 Biggest Losers, First-Generation Students, and The Year In Photos</div>
+    <div id="header-image"></div>
+</div>
+
+
+<div class="content">
+    <div class="section">
+        <div class="section-anchor" id="featured"></div>
+        <div class="section-header">Featured</div>
+        <div class="featured-container cf">
+            <div class="featured-left">
+                <a href="article/biggest-losers/"><div class="first-story">
+                    <div class="featured-title"><div>10 Biggest Losers &amp; 5 Winners</div></div>
+                </div></a>
+                <a href="article/year-in-photos/"><div class="second-story">
+                    <div class="featured-title"><div>The Year in Photos</div></div>
+                </div></a>
+            </div>
+            <div class="featured-right">
+                <a href="article/after-acceptance/"><div class="first-story">
+                    <div class="featured-title"><div>After Acceptance</div></div>
+                </div></a>
+                <a href="article/alan-dershowitz/"><div class="second-story">
+                    <div class="featured-title"><div>Fifty Years of Alan Dershowitz</div><div class="small-title">Alan Dershowitz</div></div>
+                </div></a>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-anchor" id="levity"></div>
+        <div class="section-header">Levity</div>
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/anything-can-happen/">Anything Can Happen</a>
+            </div>
+            <div class="landing-article-teaser">
+                But that doesn&rsquo;t make it good.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1208343/Abigail_K._Fiedler/">Abigail K. Fiedler</a>
+            </div>
+        </div>
+        <div class="hrule"></div>
+
+        <div class="overheard-wrapper oh-quote-left">
+            <div class="overheard-quote">
+                <div class="overheard-quote-trigger"></div>
+                <div class="overheard-quote-body">&ldquo;Is PSETs a class?&rdquo;</div>
+                <div class="overheard-quote-attrib">Arts and Humanities Administrator</div>
+            </div>
+        </div>
+
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/fake-headlines/">Year in Fake Headlines</a>
+            </div>
+            <div class="landing-article-teaser">
+                All the news that wasn&rsquo;t fit to print and then some.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1208655/Libby_R._Coleman/">Libby R. Coleman</a> and <a href="http://www.thecrimson.com/writer/1208213/Nicole_J.%20_Levin/">Nicole J. Levin</a>
+            </div>
+        </div>
+        <div class="hrule"></div>   
+        <div class="landing-work">
+            <div class="landing-work-title big-title">Class of 2014 vs. Game of 2048</div>
+            <div class="landing-work-byline">By <a href="http://www.thecrimson.com/writer/1210677/Deniz__Cataltepe/">Deniz Cataltepe</a> and <a href="http://www.thecrimson.com/writer/1210988/S.%20Levi__Spickler/">S. Levi Spickler</a></div>
+            <div class="landing-work-body">
+                <img class="landing-image" src="assets/img/venn.jpg">
+            </div>
+        </div>
+        <div class="hrule"></div>
+
+        <div class="overheard-wrapper oh-quote-right">
+            <div class="overheard-quote">
+                <div class="overheard-quote-trigger"></div>
+                <div class="overheard-quote-body">&ldquo;Everything you said is true, plus what I said.&rdquo;</div>
+                <div class="overheard-quote-attrib">Literature professor on alternative interpretations</div>
+            </div>
+        </div>
+
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/buy-hold-sell/">Buy-Hold-Sell</a>
+            </div>
+            <div class="landing-article-teaser">
+                The Crimson&rsquo;s first business section.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1209357/Marina__Molarsky-Beck/">Marina M. Molarsky-Beck</a>
+            </div>
+        </div>  
+        <div class="hrule"></div>   
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/funny-alums/">Harvard Alumni We Want To Donate a Building</a>
+            </div>
+            <div class="landing-article-teaser">
+                Yes, we did search profanities in the alumni directory.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1550/FM__Staff/">FM Staff</a>
+            </div>
+        </div>
+        <div class="hrule"></div>
+        <div class="landing-work-wide">
+            <div class="goes-around-title landing-work-title">The End Is The Beginning Is The End</div>
+            <ul id="goes-around">
+                <li data-next="As is"><div>Evelynn Hammonds, who was dean of the college</div></li>
+                <li data-next="As is"><div>Interim Dean of the College Donald H. Pfister, who is in the Dept. of Organismic and Evolutionary Biology</div></li>
+                <li data-next="As is"><div>Andrew Berry, who is married to a Harvard faculty member</div></li>
+                <li data-next="As was"><div>Tom Conley, who was born in New Haven, Conn.</div></li>
+                <li data-next="As did"><div>Larry Summers, who left his job after a controversy</div></li>
+            </ul>
+            <a href="#" class="goes-around-button"><div>As is &nbsp;&nbsp;&rarr;</div></a>
+        </div>
+        <div class="hrule"></div>
+        <div class="overheard-wrapper oh-quote-left">
+            <div class="overheard-quote">
+                <div class="overheard-quote-trigger"></div>
+                <div class="overheard-quote-body">&ldquo;Let&rsquo;s just take the obscure and explain it in terms of the unintelligible.&rdquo;</div>
+                <div class="overheard-quote-attrib">Philosophy TF</div>
+            </div>
+        </div>
+
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/tuition-increase/">6 Reasons for the Tuition Increase</a>
+            </div>
+            <div class="landing-article-teaser">
+                Where did all the money go? FM looks into it.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1210569/Joshua_A._Goldstein/">Joshua A. Goldstein</a> and <a href="http://www.thecrimson.com/writer/1210987/Eloise_A._Lynton/">Eloise A. Lynton</a>
+            </div>
+        </div>
+        <div class="hrule"></div>   
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/house-lists/">Best of: House Listservs</a>
+            </div>
+            <div class="landing-article-teaser">
+                Turns out that you don&rsquo;t need to search someone&rsquo;s email, all you need is a house list.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1209898/Olivia_M.%20_Munk/">Olivia M. Munk</a>
+            </div>
+        </div>
+        <div class="hrule"></div>   
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/ethical-reasoning/">This Year in Ethical Reasoning</a>
+            </div>
+            <div class="landing-article-teaser">
+                Your ethical reasoning requirements for the year.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1210596/Maia%20R.__Silber/">Maia R. Silber</a>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-anchor" id="around-town"></div>
+        <div class="section-header"> Around Town </div>
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/overheard-quotes/">Year in Overheard Quotes</a>
+            </div>
+            <div class="landing-article-teaser">
+                Yes, we were listening.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1210219/Colton_A._Valentine/">Colton A. Valentine</a>
+            </div>
+        </div>      
+        <div class="hrule"></div>
+
+        <div class="overheard-wrapper oh-quote-right">
+            <div class="overheard-quote">
+                <div class="overheard-quote-trigger"></div>
+                <div class="overheard-quote-body">&ldquo;Genocide is a crime under international law, which the civilized world condemns.&rdquo;</div>
+                <div class="overheard-quote-attrib">History Professor making an egregious modification error</div>
+            </div>
+        </div>
+
+        <div class="landing-work">
+            <div class="landing-work-title">Two True Things</div>
+            <div class="landing-work-body">
+                <p><span class="number">I.</span>The Philosophy department considered making sections smaller this year.</p>
+                <p><span class="number">II.</span>If a philosophy student doesn&rsquo;t talk in a 20 person class, does he still have a sense of self? No.</p>
+            </div>
+        </div>
+        <div class="hrule"></div>
+
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/lessons-learned-from-hupd/">Lessons Learned from HUPD</a>
+            </div>
+            <div class="landing-article-teaser">
+                Is that a weapon? No, just an instrument.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1210987/Eloise_A._Lynton/">Eloise A. Lynton</a> and <a href="http://www.thecrimson.com/writer/1210206/Daniel%20_J._Hilhorst/">Daniel J. Hilhorst</a>
+            </div>
+        </div>
+        <div class="hrule"></div>
+
+        <div class="overheard-wrapper oh-quote-left">
+            <div class="overheard-quote">
+                <div class="overheard-quote-trigger"></div>
+                <div class="overheard-quote-body">&ldquo;And people think literary theory is not influential.&rdquo;</div>
+                <div class="overheard-quote-attrib">Literature preceptor on HUDS &ldquo;Deconstructed Chicken Kabobs&rdquo;</div>
+            </div>
+        </div>
+
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/just-the-tip/">Just the Tip</a>
+            </div>
+            <div class="landing-article-teaser">
+                Where FM&rsquo;s graduating class gives some advice, which we ignore.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1209984/Zach_T._Osborn/">Zach T. Osborn</a>, <a href="http://www.thecrimson.com/writer/1206436/Rebecca_F._Elliott/">Rebecca F. Elliott</a>, <a href="http://www.thecrimson.com/writer/1206691/Leslie_B._Arffa/">Leslie B. Arffa</a>, <a href="http://www.thecrimson.com/writer/1207172/Andrew_A._White/">Andrew A. White</a>, <a href="http://www.thecrimson.com/writer/1207170/Victoria_A._Baena/">Victoria A. Baena</a>, <a href="http://www.thecrimson.com/writer/1209055/Ginny_C.%20_Fahs/">Ginny C. Fahs</a>, <a href="http://www.thecrimson.com/writer/1206565/Delphine__Rodrik/">Delphine Rodrik</a>, <a href="http://www.thecrimson.com/writer/1206622/Kevin__Sun/">Kevin Sun</a>, and <a href="http://www.thecrimson.com/writer/1208355/Noah_B._Pisner/">Noah B. Pisner</a>
+            </div>
+        </div>
+        <div class="hrule"></div>
+        <div class="landing-work">
+            <div class="landing-work-title">Party Scorecard</div>
+            <div class="landing-work-body">
+                <img class="landing-image" src="assets/img/party-scorecard.png">
+            </div>
+        </div>
+        <div class="hrule"></div>
+
+        <div class="overheard-wrapper oh-quote-right">
+            <div class="overheard-quote">
+                <div class="overheard-quote-trigger"></div>
+                <div class="overheard-quote-body">&ldquo;I always go to the bibliography first to see if I'm included&hellip; and if not I close the book.&rdquo;</div>
+                <div class="overheard-quote-attrib">Literature Professor</div>
+            </div>
+        </div>
+
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/in-memoriam/">In Memoriam</a>
+            </div>
+            <div class="landing-article-teaser">
+                Tommy Doyle&rsquo;s will be missed.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1210299/Bailey_M._Trela/">Bailey M. Trela</a> and <a href="http://www.thecrimson.com/writer/1211004/Zara_B.%20_Sternberg/">Zara B. Sternberg</a>
+            </div>
+        </div>
+        <div class="hrule"></div>
+        <div class="landing-work landing-work-wide">
+            <div class="landing-work-title">The Changing Face of Harvard Square</div>
+            <div class="landing-work-body">
+                <img class="landing-image" src="assets/img/harvard-square.png">
+            </div>
+        </div>
+        <div class="hrule"></div>
+
+        <div class="overheard-wrapper oh-quote-left">
+            <div class="overheard-quote">
+                <div class="overheard-quote-trigger"></div>
+                <div class="overheard-quote-body">&ldquo;Have a cookie&mdash;think about coming to lecture often.&rdquo;</div>
+                <div class="overheard-quote-attrib">Desperate History TF in Section</div>
+            </div>
+        </div>
+
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/inflation/">Inflation</a>
+            </div>
+            <div class="landing-article-teaser">
+                We give this article an A+ and 50 trillion Zimbabwe dollars.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1208247/Amy_L._Weiss-Meyer/">Amy L. Weiss-Meyer</a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="section">
+        <div class="section-anchor" id="retrospection"></div>
+        <div class="section-header"> Retrospection </div>
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="#">Year in Photos</a>
+            </div>
+            <div class="landing-article-teaser">
+                Take a look at what Instagram missed and what snapchat forgot. #TBT.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1208655/Libby_R._Coleman/">Libby R. Coleman</a>
+            </div>
+        </div>
+    </div> -->
+    <div class="section">
+        <div class="section-anchor" id="conversations"></div>
+        <div class="section-header"> Conversations </div>
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/after-acceptance/">After Acceptance</a>: The First-Generation Student Experience
+            </div>
+            <div class="landing-article-teaser">
+                Paving a new legacy at Harvard.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1207170/Victoria_A._Baena/">Victoria A. Baena</a>
+            </div>
+        </div>
+        <div class="hrule"></div>
+        <div class="landing-article">
+            <div class="landing-article-title">
+                <a href="article/alan-dershowitz/">Fifty Years of Alan Dershowitz</a>
+            </div>
+            <div class="landing-article-teaser">
+                A look at the man, his half century at Harvard, and his plans for the future.
+            </div>
+            <div class="landing-article-byline">
+                By <a href="http://www.thecrimson.com/writer/1210681/Molly_E._Wharton/">Molly E. Wharton</a>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-anchor" id="Endpapers"></div>
+        <div class="section-header"> Endpapers </div>
+
+        <div class="overheard-wrapper oh-quote-right">
+            <div class="overheard-quote">
+                <div class="overheard-quote-trigger"></div>
+                <div class="overheard-quote-body">&ldquo;There are other opportunities for VES concentrators besides,&hellip;you know begging in the street.&rdquo; &ldquo;We call that busking.&rdquo;</div>
+                <div class="overheard-quote-attrib">Arts and Humanities Administrators</div>
+            </div>
+        </div>
+
+        <div class="endpapers-container cf">
+            <div class="endpapers-left">
+                <a href="article/ticket-to-drive/"><div class="endpaper">
+                    <div class="endpapers-title"><div>Ticket to Drive</div></div>
+                </div></a>
+            </div>
+            <div class="endpapers-right">
+                <a href="article/end-of-endpapers/"><div class="endpaper">
+                    <div class="endpapers-title"><div>The End of Endpapers</div></div>
+                </div></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="section">
+        <div class="section-anchor" id="editors-note"></div>
+        <div class="section-header">Editors&rsquo; Note</div>
+        <div class="article-body">
+            <p>In this very special year-in-review edition of FM, we rounded up the 2013-&rsquo;14 trends, events, and people that mattered (or didn&rsquo;t). We picked the year&rsquo;s five biggest winners of the school year. We&rsquo;re sorry you didn&rsquo;t make the list of biggest winners (unless you&rsquo;re reading this, Evelynn Hammonds&ndash;what&rsquo;s up?), but we promise you were #6. At least you weren&rsquo;t one of our biggest losers (shout out to Shake Shack and the Harvard Ichthus).</p>
+
+            <p>If you&rsquo;re more of a visual learner, we hope you enjoyed the year in photos. There were shots of the basketball team, the football team, the crew team, and also non&ndash;sports teams, too. They say a picture tells 1,000 words, so you just read more than 10,000. Now get back to your Social Studies 10 reading.</p>
+
+            <p>We also hope you enjoyed our more humorous content. We looked back on trends, compared the class of 2014 to the game 2048, compiled the best house e-mails of the year, and listed the alumni we wish had donated a building to Harvard (wouldn&rsquo;t you want to live in Assman House?).</p>
+
+            <p>On a more serious note, we investigated the first generation student experience at Harvard, profiled Alan Dershowitz, who retired earlier this year, and rounded up the year&rsquo;s best parties. There&rsquo;s nothing more serious than a good time. Hope it was a good read!</p>
+
+            <p>Cheers to the three day weekend,<br>Libby R. Coleman and Petey E. Menz</p>
+
+            <div class="landing-work-body">
+                <img class="landing-image" src="assets/img/petey-and-libby.jpg">
+            </div>
+        </div>
+    </div>
+    <div id="TheCrimson_AllArticles_ATF_728x90" class="leader-ad">
+        <script type='text/javascript'>
+            if ($(window).width() >= 728) {
+                googletag.cmd.push(function() { googletag.display('TheCrimson_AllArticles_ATF_728x90'); });
+            }
+        </script>
+    </div>
+    <div id="design-attrib">Design by Michelle Deng and Samuel M. Fishman</div>
+</div>
+
+{% endblock %}

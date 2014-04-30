@@ -1,0 +1,57 @@
+{% extends "__base.html" %}
+
+{% block addl_header %}
+<script type="text/javascript" src="assets/js/photos.js"></script>
+<!-- <script type="text/javascript" src="assets/js/fresco/fresco.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/fresco/fresco.css">
+ -->
+<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+
+<style type="text/css">
+    .yir-image {
+        margin-bottom: 1%;
+        width: 100%;
+    }
+</style>
+
+{% endblock %}
+
+{% block content %}
+
+<header>
+    <div class="wrapper">
+        <a class="header-logo" href="http://www.thecrimson.com/">
+            <img src="assets/img/logo.png" height="18" width="215">
+        </a>
+        <ul class="header-nav">
+            <a href=""><li><img class="back-arrow" src="assets/img/arrow.png"> Back To YIR</li></a>
+        </ul>
+    </div>
+</header>
+
+<div id="intro">
+    <div id="intro-text">Year In Photos</div>
+    <div id="view-button"><a href="#">View All</a></div>
+    <div class="dark-cover fader"></div>
+</div>
+
+<div class="content">
+    <div class="section">
+        <div class="section-header">The Gallery</div>
+        <div class="featured-container cf">
+            <div class="featured-left">
+                {% for photo in photos_left %}
+                <a href="assets/img/yip-full/{{ photo.path }}" class="yip-link" data-caption="{{ photo.caption }}<br><div class='yip-contrib'>By {{ photo.contributors }}</div>"><img class="yir-image" src="assets/img/yip-thumbs/{{ photo.path }}"></a>
+                {% endfor %}
+            </div>
+            <div class="featured-right">
+                {% for photo in photos_right %}
+                <a href="assets/img/yip-full/{{ photo.path }}" class="yip-link" data-caption="{{ photo.caption }}<br><div class='yip-contrib'>By {{ photo.contributors }}</div>"><img class="yir-image" src="assets/img/yip-thumbs/{{ photo.path }}"></a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
