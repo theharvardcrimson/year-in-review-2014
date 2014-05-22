@@ -753,7 +753,21 @@ header ul li.inactive:hover {
 .leader-ad {
     margin: 0 auto 40px auto;
     width: 728px;
+    padding: 5px;
+    border: 1px solid #aaa;
 }
+
+.ad-tag {
+    width: 728px;
+    padding-left: 5px;
+    margin: 0 auto;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+/*.leader-ad::before {
+    content: "ADVERTISEMENT";
+}*/
 
 .top-leader-ad {
     margin-top: 60px;
@@ -767,6 +781,9 @@ header ul li.inactive:hover {
 
 @media (max-width: 728px) {
     .leader-ad {
+        display: none;
+    }
+    .ad-tag {
         display: none;
     }
 }

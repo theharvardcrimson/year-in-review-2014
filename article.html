@@ -15,14 +15,15 @@
     </div>
 </header>
 
+<div class="ad-tag top-leader-ad">Advertisement</div>
+<div id="TheCrimson_AllArticles_ATF_728x90" class="leader-ad">
+    <script type='text/javascript'>
+        if ($(window).width() >= 728) {
+            googletag.cmd.push(function() { googletag.display('TheCrimson_AllArticles_ATF_728x90'); });
+        }
+    </script>
+</div>
 <div class="content">
-    <div id="TheCrimson_AllArticles_ATF_728x90" class="leader-ad top-leader-ad">
-        <script type='text/javascript'>
-            if ($(window).width() >= 728) {
-                googletag.cmd.push(function() { googletag.display('TheCrimson_AllArticles_ATF_728x90'); });
-            }
-        </script>
-    </div>
     <div class="article-heading">
         <div class="article-title">
             {{ article.title }}
@@ -39,13 +40,18 @@
     <div class="article-body">
         {{ article.text }}
     </div>
-    <div id="TheCrimson_AllArticles_BTF_728x90" class="leader-ad">
-        <script type='text/javascript'>
-            if ($(window).width() >= 728) {
-                googletag.cmd.push(function() { googletag.display('TheCrimson_AllArticles_BTF_728x90'); });
-            }
-        </script>
-    </div>
+</div>
+
+<div class="ad-tag">Advertisement</div>
+<div id="TheCrimson_AllArticles_BTF_728x90" class="leader-ad">
+    <script type='text/javascript'>
+        if ($(window).width() >= 728) {
+            googletag.cmd.push(function() { googletag.display('TheCrimson_AllArticles_BTF_728x90'); });
+        }
+    </script>
+</div>
+
+<div class="content">
     <div class="article-comments">
         <div id="disqus_thread"></div>
     </div>
